@@ -9,7 +9,7 @@ public class DeploytController {
 
     @GetMapping("/deploy-check")
     public String deployCheck() {
-        return "Hello, deployment! v1";
+        return "Hello, deployment! v2";
     }
 
 }
